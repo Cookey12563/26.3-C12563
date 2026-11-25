@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101114">
+  <title>Play Eaglercraft 26.3</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui, sans-serif;
+      background: #101114;
+      color: #f3f4f7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: #101114;
+      text-align: center;
+    }
+
+    main {
+      width: min(100%, 850px);
+    }
+
+    h1 {
+      margin: 0 0 22px;
+      font-size: clamp(32px, 6vw, 64px);
+      font-weight: 650;
+      line-height: 1.12;
+      letter-spacing: -0.045em;
+      text-wrap: balance;
+    }
+
+    p {
+      margin: 0 0 36px;
+      color: #979eae;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+    .launch {
+      display: inline-block;
+      padding: 17px 30px;
+      border-radius: 13px;
+      background: #b6c6ff;
+      color: #111828;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .launch:hover {
+      background: #ced8ff;
+    }
+
+    .launch:focus-visible {
+      outline: 3px solid white;
+      outline-offset: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Play Eaglercraft 26.3 (zeus/master) now</h1>
+    <p>Courtesy of 7Frost7 and Cookey12563.</p>
+
+    <a
+      class="launch"
+      href="https://7frost7.github.io/26.3-C12563/game.html"
+    >Launch game</a>
+  </main>
+</body>
+</html>
